@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+       />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listview"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp View"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid View"
+
+        />
+
+    <Button
+        android:id="@+id/buttonRotateImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate Image"
+
+        />
+
+    <Button
+        android:id="@+id/buttonShared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Shared Preference"
+
+        />
+
+    <Button
+        android:id="@+id/buttonFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Fragment"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Firebase"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/buttonRegAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firebase Reg Signup"
+
+        />
+
+    <Button
+        android:id="@+id/buttonLoginAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firebase Login"
+
+        />
+
+    <Button
+        android:id="@+id/buttonLayoutConstraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Const. Layout Login"
+
+        />
+</LinearLayout>

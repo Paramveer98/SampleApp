@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/editroll"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter roll number" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter details"
+        android:textColor="@color/Black" />
+
+    <Button
+        android:id="@+id/fetchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="find details"
+        android:textColor="@color/Black" />
+
+    <ListView
+        android:id="@+id/studentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

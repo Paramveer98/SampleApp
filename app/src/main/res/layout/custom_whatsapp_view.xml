@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/userimage"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="User Name"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/userimage"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+
+
+        />
+
+    <TextView
+        android:id="@+id/userchat"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="18dp"
+        android:text="Recent Chat"
+        android:layout_toRightOf="@+id/userimage"
+        android:layout_below="@+id/username"
+        />
+
+    <TextView
+        android:id="@+id/chatTime"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="14dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="Time"
+
+
+        />
+
+
+
+</RelativeLayout>

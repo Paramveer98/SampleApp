@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/studimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/studname"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/studimage"
+        android:text="Student name"
+        android:textSize="24dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/studroll"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/studname"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/studimage"
+        android:text="Roll Number"
+        android:textSize="24dp" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/submitListBtn"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@+id/studname"-->
+        <!--android:text="Pass Details"-->
+        <!--android:textColor="@color/Black" />
+
+
+        weight sum in main linear layout and weight in nested liner layout like sum=10 then components in nested layout will be like weight=5 and 5 and width 0 dip for separator we can use view components in our xml
+
+
+        -->
+
+
+</RelativeLayout>
